@@ -19,18 +19,17 @@ from pathlib import Path
 # CREDENCIALES
 # =====================================================
 
-APP_USER = "Diana"
+APP_USER = "TU_USUARIO_AQUI" #Ejemplo Jaime
 # Escribe aquí el usuario que utilizarás para iniciar sesión.
 # Ejemplo: "jaime"
 
 
-APP_PW_HASH = "scrypt:32768:8:1$2yyDAFFysHUJJNVy$5a2eda0c6cef28750ce48d47ffaaa8dfff9e766aba5fb09ca4e70a2e9e797899fe04ff9e6d8861d004df34b5eeb5545389a4c432acddf34cb2e0468548463bb2"
+APP_PW_HASH = APP_PW_HASH = "PEGA_TU_HASH_AQUI"  # Ejemplo: "scrypt:32768:8:1$...$..."
 # Ejemplo: "scrypt:32768:8:1$...$..."
 
 
-SECRET_KEY = "REDES"
+SECRET_KEY = "PEGA_TU_SECRET_KEY_AQUI" # Pon una clave larga y aleatoria  
 # Escribe una clave secreta larga y aleatoria.
-
 
 # =====================================================
 # APLICACIÓN FLASK
